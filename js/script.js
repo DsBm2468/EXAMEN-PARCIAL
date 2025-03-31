@@ -1,8 +1,7 @@
 
-let boton = document.getElementById("botonCambiar")
-
-boton.onclick(cambiarTexto)
+let texto = document.getElementById("textoCambiar")
 
 function cambiarTexto(){
-    boton.innerHTML = "Texto de remplazo";
+    let frase = "Texto remplazado"
+    texto.innerHTML = frase;
 }
