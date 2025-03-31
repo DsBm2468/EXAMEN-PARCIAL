@@ -15,6 +15,7 @@ header{
     background-color: rgba(62, 4, 199, 0.849);
     max-width: 100%;
     padding: 1%;
+    align-items: center;
 }
 
 .titulos{
@@ -25,12 +26,20 @@ header{
     width: 13rem;
     align-items: center;
     padding: 0.5%;
+    margin-bottom: 1%;
 
 }
 
 .card{
     display:flexbox;
     position: relative;
+    align-items: center;
+}
+
+.card-img-top{
+    display:flexbox;
+    position: relative;
+    height: 16.3rem;
 }
 
 .juego2{
@@ -39,6 +48,26 @@ header{
     margin-left: 27%;
     margin-bottom: 3%;
     margin-top: -24.5%;
+}
+
+.imagen2{
+    display: flex;
+    position: relative;
+    height: 22rem;
+}
+
+.juego3{
+    display: flex;
+    position: relative;
+    margin-left: 54%;
+    margin-bottom: 3%;
+    margin-top: -27.5%;
+}
+
+.imagen3{
+    display: flex;
+    position: relative;
+    height: 22rem;
 }
 /*.container-fluid{
 background-color:  rgba(62, 4, 199, 0.849);
