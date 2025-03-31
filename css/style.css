@@ -69,6 +69,46 @@ header{
     position: relative;
     height: 22rem;
 }
-/*.container-fluid{
-background-color:  rgba(62, 4, 199, 0.849);
-}*/
+
+
+.custom-footer {
+    display: flex;
+    justify-content: space-around; /* Alinea los elementos en los extremos */
+    width: 100%; /* Hace que el footer ocupe todo el ancho disponible */
+    background-color: #183661;
+    color: white;
+    padding: 10px;
+    margin-top: auto;
+
+}
+
+.textoFooter {
+    margin-top: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.nombresIntegrantes {
+    margin-top: 10px;
+}
+.Estudiante {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.info{
+    text-align: center;
+    margin-top: 6px;
+}
+
+.logoFooter{
+    width: 25px;
+}
+
+.TituloFooter{
+    font-size: 14px;
+}
+
+.textoFooter2{
+ font-size: 14px;
+}
